@@ -30,22 +30,6 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const projects = [
   {
-    title: "Globetrotter Challenge",
-    description:
-      "Full-stack travel guessing game using Next.js, Tailwind CSS, and Supabase. Features real-time scoring and optimized backend performance.",
-    image: "/travel.jpg",
-    tags: ["Next.js", "Tailwind CSS", "Supabase", "TypeScript"],
-    github: "https://github.com/Jay-736-Github/Globetrotter",
-    demo: "#",
-    details: [
-      "Built a full-stack travel guessing game using Next.js, Tailwind CSS, and Supabase, delivering an engaging user experience.",
-      "Developed robust API routes for authentication, game logic, and challenge creation, ensuring seamless functionality.",
-      "Implemented a real-time scoring system with instant feedback, enhancing interactivity.",
-      "Optimized backend performance, minimizing latency and improving scalability.",
-    ],
-  },
-
-  {
     title: "Voice-Driven Property Listing Tool",
     description:
       "Built a full-stack voice-driven property listing tool using React, Node.js, Express.js, and MongoDB with speech-to-text input and structured data generation for real estate listings.",
@@ -58,6 +42,47 @@ const projects = [
       "Enabled agents to input property details using natural speech via the Web Speech API.",
       "Transformed speech into structured listing data with validation for fields like price, area, and location.",
       "Designed a seamless, responsive UI for reviewing, editing, and submitting MLS-ready listings.",
+    ],
+  },
+
+  {
+    title: "Python Security Scanner",
+    description:
+      "Built a full-stack voice-driven property listing tool using React, Node.js, Express.js, and MongoDB with speech-to-text input and structured data generation for real estate listings.",
+    image: "/cyber.jpg",
+    tags: [
+      "Python",
+      "Web Security",
+      "Vulnerability Scanner",
+      "Requests",
+      "Urllib",
+    ],
+    github:
+      "https://github.com/Jay-736-Github/Python-Based-Web-Vulnerability-Scanner",
+    demo: "#",
+    details: [
+      "Developed a Python-based vulnerability scanner to identify issues such as missing HTTP headers, subdomain enumeration, reflected XSS, SQL injection, and directory listing.",
+      "Leveraged 'requests' and 'urllib' libraries to handle HTTP requests and parse web responses for vulnerability patterns.",
+      "Structured the scanner into modular components, allowing for easy updates and addition of new vulnerability checks.",
+      "Automated scan report generation across multiple target URLs for easy tracking and usability.",
+      "Showcased knowledge of real-world web security threats and practical implementation of detection techniques.",
+      "Planned future enhancements: deeper assessments, threat intelligence integration, and advanced scanning aligned with CGI’s cybersecurity focus.",
+    ],
+  },
+
+  {
+    title: "Globetrotter Challenge",
+    description:
+      "Full-stack travel guessing game using Next.js, Tailwind CSS, and Supabase. Features real-time scoring and optimized backend performance.",
+    image: "/travel.jpg",
+    tags: ["Next.js", "Tailwind CSS", "Supabase", "TypeScript"],
+    github: "https://github.com/Jay-736-Github/Globetrotter",
+    demo: "#",
+    details: [
+      "Built a full-stack travel guessing game using Next.js, Tailwind CSS, and Supabase, delivering an engaging user experience.",
+      "Developed robust API routes for authentication, game logic, and challenge creation, ensuring seamless functionality.",
+      "Implemented a real-time scoring system with instant feedback, enhancing interactivity.",
+      "Optimized backend performance, minimizing latency and improving scalability.",
     ],
   },
 
