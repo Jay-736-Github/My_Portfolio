@@ -102,6 +102,24 @@ const projects = [
     ],
   },
 
+{
+  title: "Snake-Nado",
+  description:
+    "Classic snake game built using HTML, CSS, and JavaScript with a real-time scoring system. Designed for fun and to deepen understanding of core JavaScript concepts.",
+  image: "snake.jpg",
+  tags: ["JavaScript", "HTML", "CSS", "Game Development"],
+  github: "https://github.com/Jay-736-Github/Snake-Game",
+  demo: "https://snakenado-jays-projects-b04bef62.vercel.app/",
+  details: [
+    "Developed a classic snake game using vanilla JavaScript, HTML, and CSS.",
+    "Implemented real-time scoring system and increasing difficulty for better engagement.",
+    "Focused on clean logic and DOM manipulation to sharpen JavaScript fundamentals.",
+    "Built as a side project to explore game loops, collision detection, and key event handling.",
+    "Designed a responsive game board layout ensuring compatibility across devices and screen sizes.",
+		"Refactored game logic into modular functions for better readability and easier future enhancements."
+  ],
+},
+
   {
     title: "Chat Application",
     description:
