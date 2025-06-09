@@ -7,8 +7,16 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const skillCategories = [
   {
-    category: "Programming Languages",
-    skills: ["C++", "JavaScript", "Java", "TypeScript", "Python"],
+    category: "Programming Languages & Fundamentals",
+    skills: [
+      "C++",
+      "JavaScript",
+      "Java",
+      "TypeScript",
+      "Python",
+      "Data Structures and Algorithms",
+      "Object-Oriented Programming",
+    ],
   },
   {
     category: "Frameworks & Libraries",
@@ -19,11 +27,19 @@ const skillCategories = [
       "Next.js",
       "Socket.io",
       "Redux",
+      "Django",
     ],
   },
   {
     category: "Databases",
-    skills: ["MySQL", "MongoDB", "Supabase"],
+    skills: [
+      "MySQL",
+      "MongoDB",
+      "Supabase",
+      "PostgreSQL",
+      "RDBMS",
+      "Distributd Systems",
+    ],
   },
   {
     category: "Tools & Technologies",
@@ -31,14 +47,19 @@ const skillCategories = [
   },
   {
     category: "Testing & Concepts",
+    skills: ["Postman", "API testing", "Selenium Basics"],
+  },
+  {
+    category: "Cloud & Containerization:",
     skills: [
-      "Selenium",
-      "API testing",
-      "Data Structures and Algorithms",
-      "Object-Oriented Programming",
+      "Fundamentals of AWS",
+      "Fundamentals of Azure",
+      "Fundamentals of Docker",
+      "Fundamentals of Kubernetes",
     ],
   },
 ];
+
 
 export default function Skills() {
   const { ref, inView } = useInView({
