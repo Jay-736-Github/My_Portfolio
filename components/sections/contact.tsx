@@ -171,9 +171,10 @@ export default function Contact() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  I'm currently open to freelance opportunities, internships,
-                  and full-time positions. Let's discuss how I can contribute to
-                  your team or project!
+                  I’m actively exploring freelance gigs, internships, and
+                  full-time roles. If you’re building something exciting, let’s
+                  connect—I’d love to see how I can bring value to your team or
+                  project!
                 </p>
               </CardContent>
             </Card>
