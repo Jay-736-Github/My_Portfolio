@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge"
 const experiences = [
   {
     title: "Software Development Engineer Intern",
-    company: "Security Lit",
+    company: "Security Lit (Capture The Bug)",
     period: "April 2025 - Present",
     description: [
       `Developed and implemented backend functionality to seamlessly integrate an AI-powered agent within a researcher submission form, enabling automated data processing, intelligent analysis, and real-time vulnerability assessments.`,
