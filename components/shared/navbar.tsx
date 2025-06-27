@@ -14,10 +14,10 @@ const navItems = [
   { name: "Projects", href: "#projects" },
   { name: "Skills", href: "#skills" },
   { name: "Contact", href: "#contact" },
-  {
-    name: "My_Resume",
-    href: "https://drive.google.com/file/d/1GModKXa5LPMNM-mLhZz6me7lnsE9p3ff/view?usp=drive_link",
-  },
+  // {
+  //   name: "My_Resume",
+  //   href: "https://drive.google.com/file/d/1GModKXa5LPMNM-mLhZz6me7lnsE9p3ff/view?usp=drive_link",
+  // },
 ];
 
 export default function Navbar() {
