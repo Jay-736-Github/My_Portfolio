@@ -30,13 +30,29 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const projects = [
   {
+    title: "Identity Reconciliation Service",
+    description:
+      "Built a high-performance identity reconciliation service in Node.js and TypeScript, powering a smart /identify API that consolidates customer contacts via email/phone using MySQL and Prisma for seamless, unified identity management.",
+    image: "/identity.jpg",
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "Speech-to-Text"],
+    github: "https://github.com/Jay-736-Github/Identity-Reconciliation",
+    // demo: "https://github.com/Jay-736-Github/Identity-Reconciliation",
+    details: [
+      "Developed a robust backend service using Node.js and TypeScript to handle contact identity reconciliation, a critical data management task for consolidating customer identities.",
+      "Utilized MySQL with the Prisma ORM to design and manage the database schema, ensuring efficient storage and retrieval of linked contact data.",
+      "Engineered the core business logic to identify and link contacts based on shared email or phone numbers, correctly designating primary and secondary records to create a unified identity.",
+      " Built and exposed a RESTful / identify API endpoint using Express.js to process incoming contact data and return a consolidated JSON response.",
+    ],
+  },
+
+  {
     title: "Voice-Driven Property Listing Tool",
     description:
       "Built a full-stack voice-driven property listing tool using React, Node.js, Express.js, and MongoDB with speech-to-text input and structured data generation for real estate listings.",
     image: "/property.jpg",
     tags: ["React", "Node.js", "Express.js", "MongoDB", "Speech-to-Text"],
     github: "https://github.com/Jay-736-Github/Leapot_Problem_Statement1",
-    demo: "#",
+    // demo: "#",
     details: [
       "Developed a real-time voice-enabled property listing app using React.js, Node.js, and MongoDB.",
       "Enabled agents to input property details using natural speech via the Web Speech API.",
@@ -59,7 +75,7 @@ const projects = [
     ],
     github:
       "https://github.com/Jay-736-Github/Python-Based-Web-Vulnerability-Scanner",
-    demo: "#",
+    // demo: "#",
     details: [
       "Developed a Python-based vulnerability scanner to identify issues such as missing HTTP headers, subdomain enumeration, reflected XSS, SQL injection, and directory listing.",
       "Leveraged 'requests' and 'urllib' libraries to handle HTTP requests and parse web responses for vulnerability patterns.",
@@ -77,7 +93,7 @@ const projects = [
     image: "/travel.jpg",
     tags: ["Next.js", "Tailwind CSS", "Supabase", "TypeScript"],
     github: "https://github.com/Jay-736-Github/Globetrotter",
-    demo: "#",
+    // demo: "#",
     details: [
       "Built a full-stack travel guessing game using Next.js, Tailwind CSS, and Supabase, delivering an engaging user experience.",
       "Developed robust API routes for authentication, game logic, and challenge creation, ensuring seamless functionality.",
@@ -93,7 +109,7 @@ const projects = [
     image: "/recipe.jpg",
     tags: ["React", "Node.js", "Express.js", "MySQL", "JWT"],
     github: "https://github.com/Jay-736-Github/recipe_management_system",
-    demo: "#",
+    // demo: "#",
     details: [
       "Built a full-stack recipe management system using React, Node.js, Express.js, and MySQL with JWT authentication and CRUD functionality.",
       "Developed RESTful APIs for seamless backend communication and data handling.",
@@ -102,32 +118,32 @@ const projects = [
     ],
   },
 
-{
-  title: "Snake-Nado",
-  description:
-    "Classic snake game built using HTML, CSS, and JavaScript with a real-time scoring system. Designed for fun and to deepen understanding of core JavaScript concepts.",
-  image: "snake.jpg",
-  tags: ["JavaScript", "HTML", "CSS", "Game Development"],
-  github: "https://github.com/Jay-736-Github/Snake-Game",
-  demo: "https://snakenado-jays-projects-b04bef62.vercel.app/",
-  details: [
-    "Developed a classic snake game using vanilla JavaScript, HTML, and CSS.",
-    "Implemented real-time scoring system and increasing difficulty for better engagement.",
-    "Focused on clean logic and DOM manipulation to sharpen JavaScript fundamentals.",
-    "Built as a side project to explore game loops, collision detection, and key event handling.",
-    "Designed a responsive game board layout ensuring compatibility across devices and screen sizes.",
-		"Refactored game logic into modular functions for better readability and easier future enhancements."
-  ],
-},
+  {
+    title: "Snake-Nado",
+    description:
+      "Classic snake game built using HTML, CSS, and JavaScript with a real-time scoring system. Designed for fun and to deepen understanding of core JavaScript concepts.",
+    image: "snake.jpg",
+    tags: ["JavaScript", "HTML", "CSS", "Game Development"],
+    github: "https://github.com/Jay-736-Github/Snake-Game",
+    demo: "https://snakenado-jays-projects-b04bef62.vercel.app/",
+    details: [
+      "Developed a classic snake game using vanilla JavaScript, HTML, and CSS.",
+      "Implemented real-time scoring system and increasing difficulty for better engagement.",
+      "Focused on clean logic and DOM manipulation to sharpen JavaScript fundamentals.",
+      "Built as a side project to explore game loops, collision detection, and key event handling.",
+      "Designed a responsive game board layout ensuring compatibility across devices and screen sizes.",
+      "Refactored game logic into modular functions for better readability and easier future enhancements.",
+    ],
+  },
 
   {
     title: "Chat Application",
     description:
       "Real-time chat app using React.js, Express.js, and Socket.io. Implemented bi-directional communication and MongoDB for chat history storage.",
     image: "/chat.jpg",
-    tags: ["React.js", "Express.js", "Socket.io", "MongoDB", "JWT"],
+    tags:["Node.js", "TypeScript", "Express.js", "Prisma", "MySQL", "Railway"],
     github: "https://github.com/Jay-736-Github/ChatApp",
-    demo: "#",
+    // demo: "#",
     details: [
       "Built a real-time chat application using React.js, Express.js, and Socket.io.",
       "Implemented bi-directional communication with Socket.io for instant messaging.",

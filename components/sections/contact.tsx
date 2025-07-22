@@ -137,7 +137,7 @@ export default function Contact() {
                     href="mailto:jayarya.work@gmail.com"
                     className="hover:text-primary transition-colors"
                   >
-                    jayarya.work@gmail.com
+                  jayarya.work@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
