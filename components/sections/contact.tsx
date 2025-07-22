@@ -16,29 +16,51 @@ export default function Contact() {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
-  })
+  });
 
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
     message: "",
-  })
+  });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target
-    setFormData((prev) => ({ ...prev, [name]: value }))
-  }
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // In a real application, you would handle form submission here
-    console.log("Form submitted:", formData)
-    // Reset form
-    setFormData({ name: "", email: "", subject: "", message: "" })
-    // Show success message
-    alert("Thank you for your message! I'll get back to you soon.")
-  }
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("/api/send", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setFormData({ name: "", email: "", subject: "", message: "" });
+        alert("Thank you for your message! I'll get back to you soon.");
+      } else {
+        alert(
+          "Sorry, there was an issue sending your message. Please try again later."
+        );
+      }
+    } catch (error) {
+      console.error("Form submission error:", error);
+      alert(
+        "Sorry, there was an issue sending your message. Please try again later."
+      );
+    }
+  };
+
 
   return (
     <section id="contact" className="section-padding bg-muted/30">
@@ -127,7 +149,7 @@ export default function Contact() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-              {/*  <div className="flex items-center gap-3">
+                {/*  <div className="flex items-center gap-3">
                   <Phone className="h-5 w-5 text-primary" />
                   <span>6376393724</span> 
                 </div> */}
@@ -137,7 +159,7 @@ export default function Contact() {
                     href="mailto:jayarya.work@gmail.com"
                     className="hover:text-primary transition-colors"
                   >
-                  jayarya.work@gmail.com
+                    jayarya.work@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
