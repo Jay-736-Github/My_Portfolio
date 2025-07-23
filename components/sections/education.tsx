@@ -16,7 +16,7 @@ const education = [
     institution: "Birla Institute of Technology, Mesra",
     degree: "Bachelor of Technology in Computer Science and Engineering",
     period: "2021 – 2025",
-    details: "CGPA: 8.22",
+    details: "CGPA: 8.10",
     icon: GraduationCap,
   },
   {
