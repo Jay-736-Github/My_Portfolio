@@ -38,10 +38,10 @@ const projects = [
     github: "https://github.com/Jay-736-Github/Identity-Reconciliation",
     // demo: "https://github.com/Jay-736-Github/Identity-Reconciliation",
     details: [
-      "Developed a robust backend service using Node.js and TypeScript to handle contact identity reconciliation, a critical data management task for consolidating customer identities.",
-      "Utilized MySQL with the Prisma ORM to design and manage the database schema, ensuring efficient storage and retrieval of linked contact data.",
-      "Engineered the core business logic to identify and link contacts based on shared email or phone numbers, correctly designating primary and secondary records to create a unified identity.",
-      " Built and exposed a RESTful / identify API endpoint using Express.js to process incoming contact data and return a consolidated JSON response.",
+      "Engineered a scalable backend service using Node.js and TypeScript to perform real-time identity reconciliation, a critical data management function for unifying customer profiles.",
+      "Designed and implemented a relational database schema in MySQL, managed via the Prisma ORM, to ensure data integrity and efficient querying of linked contact records.",
+      "Developed the core reconciliation engine, featuring complex business logic to accurately identify, link, and merge disparate customer contacts into a single source of truth by managing primary/secondary relationships.",
+      "Built and exposed RESTful /identify and /order endpoints using Express.js; /identify processes contact data to return a unified profile, while /order links purchase history to the correct primary identity using the core reconciliation logic.",
     ],
   },
 

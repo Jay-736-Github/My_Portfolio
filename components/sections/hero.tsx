@@ -24,7 +24,7 @@ export default function Hero() {
       >
         <div className="mb-8 relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20">
           <Image
-            src="image.png"
+            src="/image.png"
             alt="Jay Prakash Arya"
             fill
             className="object-cover object-top"
