@@ -30,6 +30,35 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const projects = [
   {
+    title: "Store Rating Hub",
+    description:
+      "Developed a full-stack store rating platform with secure RBAC (Admin, Owner, User) using Node.js, Express, and React. Delivered a scalable, real-time dashboard and dynamic frontend with Tailwind/Shadcn, optimized for high performance and smooth user experience.",
+    image: "/Store.jpg",
+    tags: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "Prisma ORM",
+      "JWT",
+      "Shadcn/UI",
+      "Tailwind CSS",
+    ],
+    github: "https://github.com/Jay-736-Github/Rating_Store",
+    // demo: "https://github.com/Jay-736-Github/Identity-Reconciliation",
+    details: [
+      "Developed a production-ready full-stack application with a Node.js/Express backend and a React/Vite frontend, enabling users to seamlessly rate and review stores with authentication and authorization.",
+      "Implemented a secure role-based access control (RBAC) system using JWT, enforcing strict access policies across three roles: Admin, Store Owner, and User, while maintaining data integrity.",
+      "Designed and delivered a role-protected admin dashboard featuring real-time analytics, advanced search, sorting, pagination, and scalable management tables for users, stores, and ratings.",
+      "Built and optimized MySQL schemas with Prisma ORM for efficient relational data management, ensuring accurate queries, smooth migrations, and referential integrity across entities.",
+      "Developed a responsive and dynamic frontend with React, Tailwind CSS, and Shadcn/ui, integrating protected routes, interactive modals, and real-time updates for an enhanced user experience.",
+      "Engineered optimized API and data-fetching strategies to handle large datasets efficiently, reducing bottlenecks and ensuring smooth performance at scale.",
+      "Conducted scalability testing with over 1,000 user records, validating system robustness and ensuring reliable performance under real-world usage scenarios.",
+      "Collaborated across backend and frontend layers to deliver a secure, scalable, and user-centric platform, meeting production-grade standards.",
+    ],
+  },
+
+  {
     title: "Identity Reconciliation Service",
     description:
       "Built a high-performance identity reconciliation service in Node.js and TypeScript, powering a smart /identify API that consolidates customer contacts via email/phone using MySQL and Prisma for seamless, unified identity management.",
@@ -141,7 +170,7 @@ const projects = [
     description:
       "Real-time chat app using React.js, Express.js, and Socket.io. Implemented bi-directional communication and MongoDB for chat history storage.",
     image: "/chat.jpg",
-    tags:["Node.js", "TypeScript", "Express.js", "Prisma", "MySQL", "Railway"],
+    tags: ["Node.js", "TypeScript", "Express.js", "Prisma", "MySQL", "Railway"],
     github: "https://github.com/Jay-736-Github/ChatApp",
     // demo: "#",
     details: [
